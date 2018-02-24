@@ -1,0 +1,36 @@
+{
+  "name": "yunchen-snippets",
+  "version": "1.0.0",
+  "description": "js",
+  "main": "index.js",
+  "repository": "git@github.com:chenyungcs/snippets.git",
+  "author": "yunchen <374035917@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "NODE_ENV=development parcel index.html",
+    "build": "NODE_ENV=production parcel build index.html"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-plugin-react-flow-props-to-prop-types": "^0.15.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.16.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "flow-bin": "^0.64.0",
+    "less": "^2.7.3",
+    "parcel-bundler": "^1.5.1"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
